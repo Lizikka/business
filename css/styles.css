@@ -61,7 +61,7 @@
   [class^="icon-"], [class*=" icon-"] ::before {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
+    
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -92,6 +92,9 @@
 * {
     box-sizing: border-box;
 }
+.body {
+    max-width: 1170px;
+}
 .header {
     background-color:#fff;
     padding: 20px;
@@ -105,6 +108,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .center-block {
     width: 1170px;
     margin: 0 auto;
