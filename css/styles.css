@@ -93,7 +93,7 @@
     box-sizing: border-box;
 }
 .body {
-    max-width: 1170px;
+    max-width: 100%;
 }
 .header {
     background-color:#fff;
